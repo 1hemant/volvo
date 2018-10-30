@@ -3,7 +3,7 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 15em;
+  width: 50em;
 }
 .users li {
   position: relative;
@@ -66,8 +66,12 @@ button:hover {
 
 button.delete {
   position: relative;
-  left: 194px;
+  left: 560px;
   top: -32px;
-  background-color: gray !important;
+  background-color: rgb(76, 86, 226) !important;
   color: white;
+}
+
+tr, td, th{
+  border: 1px solid gray;
 }
